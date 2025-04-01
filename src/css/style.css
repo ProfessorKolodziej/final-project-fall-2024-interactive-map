@@ -6,7 +6,7 @@ primary color variable below.
 */
 
 :root {
-	--color-primary: blue;
+	--color-primary: hotpink;
 	--color-secondary: #c00;
 }
 
@@ -27,7 +27,7 @@ h1 {
 }
 
 /* This uses the same value as --size-xs. */
-@media screen and (width >= 320px) {
+@media screen and (width >=320px) {
 	.content-container {
 		margin: 0 auto;
 		max-width: 768px;
