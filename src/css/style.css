@@ -6,7 +6,7 @@ primary color variable below.
 */
 
 :root {
-	--color-primary: hotpink;
+	--color-primary: black;
 	--color-secondary: #c00;
 }
 
@@ -30,6 +30,19 @@ h1 {
 @media screen and (width >=320px) {
 	.content-container {
 		margin: 0 auto;
-		max-width: 768px;
+		max-width: 1100px;
 	}
+}
+
+img {
+	width: 850px;
+	height: 500px;
+	object-fit: contain;
+}
+
+img {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 }
