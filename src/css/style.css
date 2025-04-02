@@ -5,8 +5,12 @@ Try changing the color from blue to red in the
 primary color variable below.
 */
 
+* {
+	box-sizing: border-box;
+}
+
 :root {
-	--color-primary: black;
+	--color-primary: green;
 	--color-secondary: #c00;
 }
 
@@ -24,6 +28,10 @@ to help you out.
 
 h1 {
 	color: var(--color-primary);
+}
+
+h2 {
+	color: red;
 }
 
 /* This uses the same value as --size-xs. */
