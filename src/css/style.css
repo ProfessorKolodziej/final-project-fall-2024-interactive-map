@@ -14,6 +14,10 @@ primary color variable below.
 	--color-secondary: #c00;
 }
 
+body {
+	background-color: white;
+}
+
 /*
 CSS doesn't allow variables to be used in media
 queries just yet, but you can use these values
@@ -54,5 +58,3 @@ img {
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
-
-background-color: hsl(48, 44%, 89%);
