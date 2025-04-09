@@ -4,6 +4,7 @@ You can write a color in directly, or use variables.
 Try changing the color from blue to red in the
 primary color variable below.
 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -43,6 +44,14 @@ h2 {
 p {
 	text-align: center;
 }
+
+font {
+	font-family: "Noto Naskh Arabic", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
 
 /* This uses the same value as --size-xs. */
 @media screen and (width >=320px) {
