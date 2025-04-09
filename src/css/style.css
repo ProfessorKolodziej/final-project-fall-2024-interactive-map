@@ -32,10 +32,16 @@ to help you out.
 
 h1 {
 	color: var(--color-primary);
+	text-align: center;
 }
 
 h2 {
 	color: red;
+	text-align: center;
+}
+
+p {
+	text-align: center;
 }
 
 /* This uses the same value as --size-xs. */
@@ -44,19 +50,6 @@ h2 {
 		margin: 0 auto;
 		max-width: 1100px;
 	}
-}
-
-img {
-	width: 850px;
-	height: 500px;
-	object-fit: contain;
-}
-
-img {
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
 }
 
 /* Used ChatGPT for help with the SVG interactive map */
@@ -70,4 +63,13 @@ img {
 
 #map path:hover {
 	fill: #66c;
+}
+
+#map path {
+	cursor: pointer;
+	transition: fill 0.3s ease;
+}
+
+#map path:hover {
+	fill: #99c;
 }
