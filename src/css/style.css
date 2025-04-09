@@ -73,3 +73,11 @@ p {
 #map path:hover {
 	fill: #99c;
 }
+
+/* Used W3 Schools to shrink the flag image */
+
+img {
+	width: 10%;
+	height: auto;
+	float: inline-end;
+}

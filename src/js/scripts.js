@@ -12,12 +12,11 @@ console.log("Hello from Ariana!");
 
 // Used ChatGPT for help with the SVG interactive map
 
-<script>
-  document.querySelectorAll('#map path').forEach(region => {
-        region.addEventListener('click', () => {
-            const regionName = region.id;
-            alert("You clicked on: " + regionName);
-        });
+document.querySelectorAll('#map path').forEach(region => {
+    region.addEventListener('click', () => {
+        const regionName = region.id;
+        alert("You clicked on: " + regionName);
+    });
 
     region.addEventListener('mouseenter', () => {
         region.style.fill = '#99f';
@@ -26,6 +25,5 @@ console.log("Hello from Ariana!");
     region.addEventListener('mouseleave', () => {
         region.style.fill = ''; // Reset to CSS
     });
-  });
-</script>
+});
 
