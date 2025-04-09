@@ -58,3 +58,16 @@ img {
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
+
+/* Used ChatGPT for help with the SVG interactive map */
+
+#map path {
+	fill: #ccc;
+	stroke: #333;
+	cursor: pointer;
+	transition: fill 0.3s;
+}
+
+#map path:hover {
+	fill: #66c;
+}

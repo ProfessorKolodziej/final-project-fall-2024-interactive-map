@@ -10,8 +10,21 @@
 
 console.log("Hello from Ariana!");
 
-// Used ChatGPT to help me create a clickable button in HTML and JS
+// Used ChatGPT for help with the SVG interactive map
 
-document.getElementById("myButton").addEventListener("click", function () {
-});
+<script>
+  document.querySelectorAll('#map path').forEach(region => {
+        region.addEventListener('click', () => {
+            const regionName = region.id;
+            alert("You clicked on: " + regionName);
+        });
 
+    region.addEventListener('mouseenter', () => {
+        region.style.fill = '#99f';
+    });
+
+    region.addEventListener('mouseleave', () => {
+        region.style.fill = ''; // Reset to CSS
+    });
+  });
+</script>
