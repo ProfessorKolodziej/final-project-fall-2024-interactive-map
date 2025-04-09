@@ -45,7 +45,21 @@ p {
 	text-align: center;
 }
 
-font {
+h1 {
+	font-family: "Noto Naskh Arabic", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+h2 {
+	font-family: "Noto Naskh Arabic", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+p {
 	font-family: "Noto Naskh Arabic", serif;
 	font-optical-sizing: auto;
 	font-weight: <weight>;
