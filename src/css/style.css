@@ -99,6 +99,18 @@ p {
 
 /* Used W3 Schools to shrink the flag image */
 
+#image1 {
+	width: 100%;
+	height: auto;
+	float: inline-end;
+}
+
+#image2 {
+	width: 100%;
+	height: auto;
+	float: inline-end;
+}
+
 img {
 	width: 10%;
 	height: auto;
@@ -115,14 +127,4 @@ a {
 	font-weight: <weight>;
 	font-style: normal;
 
-}
-
-.marker {
-	width: 16px;
-	height: 16px;
-	background: crimson;
-	border-radius: 50%;
-	position: absolute;
-	animation: bounce 1s infinite alternate;
-	box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
 }
