@@ -23,7 +23,6 @@ document.querySelectorAll('#map path').forEach(region => {
     });
 
     region.addEventListener('mouseleave', () => {
-        region.style.fill = ''; // Reset to CSS
+        region.style.fill = '';
     });
 });
-

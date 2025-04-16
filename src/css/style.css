@@ -104,3 +104,25 @@ img {
 	height: auto;
 	float: inline-end;
 }
+
+a {
+	color: #c00;
+}
+
+a {
+	font-family: "Noto Naskh Arabic", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+
+}
+
+.marker {
+	width: 16px;
+	height: 16px;
+	background: crimson;
+	border-radius: 50%;
+	position: absolute;
+	animation: bounce 1s infinite alternate;
+	box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+}
