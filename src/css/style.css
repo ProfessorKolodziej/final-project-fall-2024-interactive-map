@@ -4,7 +4,7 @@ You can write a color in directly, or use variables.
 Try changing the color from blue to red in the
 primary color variable below.
 */
-@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Jim+Nightshade&family=Mr+Bedfort&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -54,13 +54,13 @@ p {
 }
 
 h1 {
-	font-family: "Jim Nightshade", cursive;
-	font-weight: 400;
+	font-family: "Mr Bedfort", cursive;
+	font-weight: 700;
 	font-style: normal;
 }
 
 h2 {
-	font-family: "Jim Nightshade", cursive;
+	font-family: "Mr Bedfort", cursive;
 	font-weight: 400;
 	font-style: normal;
 }
