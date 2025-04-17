@@ -26,3 +26,13 @@ document.querySelectorAll('#map path').forEach(region => {
         region.style.fill = '';
     });
 });
+
+// Used ChatGPT to help me create some interactive buttons.
+
+const btn = document.getElementById("myButton");
+
+
+btn.addEventListener("click", function () {
+    alert("Get ready to explore Tehran!");
+});
+
