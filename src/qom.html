@@ -7,8 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Update your description here" />
     <title>Interactive Map of Iran</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+
+        .fullscreen-img {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+
+            height: 100vh;
+
+            object-fit: cover;
+
+            z-index: -1;
+
+        }
+    </style>
     <!--
 		This is where you should link your CSS file.
+        Used ChatGPT to help me fill the entire screen with my image.
 	-->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -17,7 +38,7 @@
     <main class="content-container">
         <h1>Explore Beautiful Qom</h1>
         <a href="index.html">Home</a>
-        <img src="images/Dome-Shrine-of-Fatimah-Iran-Qom.webp" id="image2" alt="">
+        <img src="images/Dome-Shrine-of-Fatimah-Iran-Qom.webp" alt="" class="fullscreen-img">
         <script src="js/scripts.js"></script>
 </body>
 

@@ -32,7 +32,7 @@ to help you out.
 */
 
 h1 {
-	color: var(--color-primary);
+	color: green;
 	text-align: center;
 }
 
@@ -99,18 +99,6 @@ p {
 
 /* Used W3 Schools to shrink the flag image */
 
-#image1 {
-	width: 100%;
-	height: auto;
-	float: inline-end;
-}
-
-#image2 {
-	width: 100%;
-	height: auto;
-	float: inline-end;
-}
-
 img {
 	width: 10%;
 	height: auto;
@@ -126,5 +114,4 @@ a {
 	font-optical-sizing: auto;
 	font-weight: <weight>;
 	font-style: normal;
-
 }
