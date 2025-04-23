@@ -4,7 +4,7 @@ You can write a color in directly, or use variables.
 Try changing the color from blue to red in the
 primary color variable below.
 */
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Jim+Nightshade&family=Mr+Bedfort&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Mr+Bedfort&family=Noto+Naskh+Arabic:wght@400..700&display=swap');
 
 * {
 	box-sizing: border-box;
