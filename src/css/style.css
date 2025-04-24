@@ -36,44 +36,71 @@ to help you out.
 	text-align: center;
 }
 
+/* Used ChatGPT to help me create a transparent box around my text
+for better readability for users */
+
 .headline-two {
-	color: white;
+	color: black;
 	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border-radius: 10px;
 }
 
 .headline-three {
-	color: white;
+	color: black;
 	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border-radius: 10px;
 }
 
 .headline-four {
-	color: white;
+	color: black;
 	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border-radius: 10px;
 }
 
 .headline-five {
-	color: white;
+	color: black;
 	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border-radius: 10px;
 }
 
 .headline-six {
-	color: white;
+	color: black;
 	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border-radius: 10px;
 }
 
 .headline-seven {
-	color: white;
+	color: black;
 	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border-radius: 10px;
 }
 
 .headline-eight {
-	color: white;
+	color: black;
 	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border-radius: 10px;
 }
 
 .headline-nine {
-	color: white;
+	color: black;
 	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border-radius: 10px;
 }
 
 h2 {
