@@ -38,10 +38,42 @@ to help you out.
 
 .headline-two {
 	color: white;
+	text-align: center;
 }
 
 .headline-three {
 	color: white;
+	text-align: center;
+}
+
+.headline-four {
+	color: white;
+	text-align: center;
+}
+
+.headline-five {
+	color: white;
+	text-align: center;
+}
+
+.headline-six {
+	color: white;
+	text-align: center;
+}
+
+.headline-seven {
+	color: white;
+	text-align: center;
+}
+
+.headline-eight {
+	color: white;
+	text-align: center;
+}
+
+.headline-nine {
+	color: white;
+	text-align: center;
 }
 
 h2 {
@@ -103,7 +135,7 @@ p {
 	fill: #99c;
 }
 
-/* Used W3 Schools to shrink the flag image */
+/* Used W3 Schools to shrink the flag image and ChatGPT to center the 'a' tag */
 
 img {
 	width: 10%;
@@ -113,6 +145,9 @@ img {
 
 a {
 	color: #c00;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
 }
 
 a {
