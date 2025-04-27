@@ -187,7 +187,8 @@ a {
 	z-index: -1;
 }
 
-/* Used ChatGPT to help me center the image. */
+/* Used ChatGPT to help me center the image and to align my buttons on the 
+vertically using columns with green and red colored backgrounds. */
 
 .map {
 	display: block;
@@ -195,4 +196,28 @@ a {
 	width: 80%;
 	max-width: 750px;
 	height: auto;
+}
+
+#leftMenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50px;
+	background-color: rgb(218, 255, 218);
+}
+
+.right-column {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	width: 150px;
+	background-color: #ffdede;
+	padding: 20px;
+	box-sizing: border-box;
 }
