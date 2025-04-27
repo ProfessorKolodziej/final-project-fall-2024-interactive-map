@@ -194,7 +194,7 @@ vertically using columns with green and red colored backgrounds. */
 	display: block;
 	margin: 0 auto;
 	width: 80%;
-	max-width: 750px;
+	max-width: 735px;
 	height: auto;
 }
 
@@ -220,4 +220,32 @@ vertically using columns with green and red colored backgrounds. */
 	background-color: #ffdede;
 	padding: 20px;
 	box-sizing: border-box;
+}
+
+.fars {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	border-radius: 10px;
+	width: fit-content;
+}
+
+.qom {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	border-radius: 10px;
+	width: fit-content;
+}
+
+.yazd {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	border-radius: 10px;
+	width: fit-content;
+}
+
+.alborz {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	border-radius: 10px;
+	width: fit-content;
 }
