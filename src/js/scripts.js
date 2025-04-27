@@ -10,20 +10,20 @@
 
 console.log("Hello from Ariana!");
 
-// Used ChatGPT for help with the SVG interactive map
+// Used ChatGPT to help me create a current time clock in Iran for the index.html.
 
-document.querySelectorAll('#map path').forEach(region => {
-    region.addEventListener('click', () => {
-        const regionName = region.id;
-        alert("You clicked on: " + regionName);
-    });
+function updateIranTime() {
+    const iranTimeElement = document.getElementById('iranTime');
+    const options = {
+        timeZone: 'Asia/Tehran',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false,
+    };
 
-    region.addEventListener('mouseenter', () => {
-        region.style.fill = '#99f';
-    });
+    const formatter = new Intl.DateTimeFormat([], options);
+    iranTimeElement.textContent = formatter.format(new Date());
+}
 
-    region.addEventListener('mouseleave', () => {
-        region.style.fill = '';
-    });
-});
-
+updateIranTime();

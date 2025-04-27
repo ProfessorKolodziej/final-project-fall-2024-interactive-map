@@ -31,6 +31,20 @@ to help you out.
 	--size-xl: 1200px;
 */
 
+#iranTime {
+	font-family: "Noto Naskh Arabic", serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+
+#label {
+	font-family: "Noto Naskh Arabic", serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+
 .headline-one {
 	color: green;
 	text-align: center;
@@ -127,7 +141,7 @@ h2 {
 p {
 	font-family: "Noto Naskh Arabic", serif;
 	font-optical-sizing: auto;
-	font-weight: <weight>;
+	font-weight: weight;
 	font-style: normal;
 }
 
@@ -140,35 +154,14 @@ p {
 	}
 }
 
-/* Used ChatGPT for help with the SVG interactive map */
-
-#map path {
-	fill: #ccc;
-	stroke: #333;
-	cursor: pointer;
-	transition: fill 0.3s;
-}
-
-#map path:hover {
-	fill: #66c;
-}
-
-#map path {
-	cursor: pointer;
-	transition: fill 0.3s ease;
-}
-
-#map path:hover {
-	fill: #99c;
-}
-
 /* Used W3 Schools to shrink the flag image and ChatGPT to center the 'a' tag */
 
-img {
+.flag {
 	width: 10%;
 	height: auto;
 	float: inline-end;
 }
+
 
 a {
 	color: #c00;
@@ -192,4 +185,14 @@ a {
 	height: 100%;
 	object-fit: cover;
 	z-index: -1;
+}
+
+/* Used ChatGPT to help me center the image. */
+
+.map {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 750px;
+	height: auto;
 }
