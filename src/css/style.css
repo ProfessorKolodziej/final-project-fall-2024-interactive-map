@@ -36,6 +36,7 @@ to help you out.
 	font-optical-sizing: auto;
 	font-weight: weight;
 	font-style: normal;
+	color: red;
 }
 
 #label {
@@ -56,7 +57,7 @@ for better readability for users */
 .headline-two {
 	color: black;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -64,7 +65,7 @@ for better readability for users */
 .headline-three {
 	color: black;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -72,7 +73,7 @@ for better readability for users */
 .headline-four {
 	color: black;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -80,7 +81,7 @@ for better readability for users */
 .headline-five {
 	color: black;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -88,7 +89,7 @@ for better readability for users */
 .headline-six {
 	color: black;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -96,7 +97,7 @@ for better readability for users */
 .headline-seven {
 	color: black;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -104,7 +105,7 @@ for better readability for users */
 .headline-eight {
 	color: black;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -112,7 +113,7 @@ for better readability for users */
 .headline-nine {
 	color: black;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -244,6 +245,34 @@ vertically using columns with green and red colored backgrounds. */
 }
 
 .alborz {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	border-radius: 10px;
+	width: fit-content;
+}
+
+.tehran {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	border-radius: 10px;
+	width: fit-content;
+}
+
+.esfahan {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	border-radius: 10px;
+	width: fit-content;
+}
+
+.hamadan {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	border-radius: 10px;
+	width: fit-content;
+}
+
+.kermanshah {
 	background-color: rgba(255, 255, 255, 0.6);
 	padding: 20px;
 	border-radius: 10px;
