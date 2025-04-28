@@ -278,3 +278,14 @@ vertically using columns with green and red colored backgrounds. */
 	border-radius: 10px;
 	width: fit-content;
 }
+
+
+/* Used W3 Schools to help me create a shadow effect around my interactive buttons. */
+
+#myButton {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#myButton:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
