@@ -20,37 +20,37 @@ primary color variable below.
 
 @media screen and (min-width: 375px) {
 	.headline-one {
-		font-size: 30px;
+		font-size: 35px;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.headline-one {
-		font-size: 30px;
+		font-size: 35px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.headline-one {
-		font-size: 30px;
+		font-size: 35px;
 	}
 }
 
 @media screen and (min-width: 375px) {
 	h2 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	h2 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	h2 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 }
 
@@ -249,7 +249,7 @@ vertically using columns with green and red colored backgrounds. */
 	display: block;
 	margin: 0 auto;
 	width: 80%;
-	max-width: 565px;
+	max-width: 550px;
 	height: auto;
 }
 
