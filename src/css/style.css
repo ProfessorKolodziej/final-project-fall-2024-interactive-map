@@ -10,6 +10,28 @@ primary color variable below.
 	box-sizing: border-box;
 }
 
+/* This uses the same value as --size-xs. */
+@media screen and (width >=375px) {
+	.content-container {
+		margin: 0 auto;
+		max-width: 1100px;
+	}
+}
+
+@media screen and (width >=768px) {
+	.content-container {
+		margin: 0 auto;
+		max-width: 1100px;
+	}
+}
+
+@media screen and (width >=1024px) {
+	.content-container {
+		margin: 0 auto;
+		max-width: 1100px;
+	}
+}
+
 :root {
 	--color-primary: green;
 	--color-secondary: #c00;
@@ -146,14 +168,6 @@ p {
 	font-style: normal;
 }
 
-
-/* This uses the same value as --size-xs. */
-@media screen and (width >=320px) {
-	.content-container {
-		margin: 0 auto;
-		max-width: 1100px;
-	}
-}
 
 /* Used W3 Schools to shrink the flag image and ChatGPT to center the 'a' tag */
 
