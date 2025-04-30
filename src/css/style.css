@@ -11,21 +11,7 @@ primary color variable below.
 }
 
 /* This uses the same value as --size-xs. */
-@media screen and (width >=375px) {
-	.content-container {
-		margin: 0 auto;
-		max-width: 1100px;
-	}
-}
-
-@media screen and (width >=768px) {
-	.content-container {
-		margin: 0 auto;
-		max-width: 1100px;
-	}
-}
-
-@media screen and (width >=1024px) {
+@media screen and (width >=320px) {
 	.content-container {
 		margin: 0 auto;
 		max-width: 1100px;
